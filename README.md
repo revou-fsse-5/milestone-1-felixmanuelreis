@@ -35,7 +35,7 @@ echo "* **Frontend:** HTML, CSS, JavaScript, React"
 echo ""
 echo "## Contributing"
 echo "------------"
-echo "We welcome contributions to our website and mission. If you're interested in getting involved, please contact us at [info@exploreresp.com](mailto:info@exploreresp.com)."
+echo "We welcome contributions to our website and mission. If you're interested in getting involved, please contact us at [info@mountainmor.online](mailto:info@mountainmor.online)."
 
 # License
 echo ""
@@ -47,5 +47,5 @@ echo "This website is licensed under the MIT License. See [LICENSE](LICENSE) for
 echo ""
 echo "## Contact"
 echo "-------"
-echo "Email: [info@exploreresp.com](mailto:info@exploreresp.com)"
-echo "Website: [https://exploreresp.com](https://exploreresp.com)"
+echo "Email: [info@mountainmor.online](mailto:info@mountainmor.online)"
+echo "Website: [https://mountainmor.online](https://mountainmor.online)"
