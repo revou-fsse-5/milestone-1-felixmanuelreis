@@ -1,0 +1,188 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    background-color: #f2f2f2;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 1em;
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+h3 {
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+
+p {
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Header Styles */
+header {
+    background-color: #fff;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+.logo {
+    float: left;
+    margin-right: 20px;
+}
+
+.logo img {
+    height: 40px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('Images/hero-bg.jpg'); /* Replace with your hero image */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero-content {
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.hero button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Section Styles */
+.section-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.content-area {
+    margin-bottom: 20px;
+}
+
+.about-image {
+    text-align: center;
+}
+
+.about-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.about-image figcaption {
+    text-align: center;
+    margin-top: 10px;
+    font-style: italic;
+}
+
+/* Tour Grid */
+.tour-grid, 
+.impact-grid, 
+.get-involved-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+    list-style: none;
+}
+
+.tour-grid figure, 
+.impact-grid figure, 
+.get-involved-grid figure {
+    text-align: center;
+}
+
+.tour-grid img, 
+.impact-grid img, 
+.get-involved-grid img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.tour-grid figcaption, 
+.impact-grid figcaption, 
+.get-involved-grid figcaption {
+    margin-top: 10px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Responsive Styles (Media Queries) */
+@media (max-width: 768px) {
+    nav ul {
+        float: none;
+        text-align: center;
+    }
+
+    nav li {
+        display: block;
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+
+    .tour-grid, 
+    .impact-grid, 
+    .get-involved-grid {
+        grid-template-columns: 1fr;
+    }
+}
