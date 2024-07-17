@@ -5,6 +5,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Explore Responsibly | Community-Based Tourism & Plastic Waste Reduction</title>
     <link rel="stylesheet" href="css/style.css">
+    <style>
+        .hamburger {
+            display: none;
+            cursor: pointer;
+        }
+
+        .hamburger .bar {
+            display: block;
+            width: 25px;
+            height: 3px;
+            margin: 5px auto;
+            background-color: #333;
+            transition: all 0.3s;
+        }
+
+        @media (max-width: 768px) {
+            .hamburger {
+                display: block;
+            }
+
+            nav ul {
+                display: none;
+                width: 100%;
+                text-align: center;
+                background-color: #fff;
+                position: absolute;
+                top: 60px;
+                left: 0;
+                padding: 0;
+                margin: 0;
+                box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            }
+
+            nav ul.show {
+                display: block;
+            }
+
+            nav li {
+                display: block;
+                margin: 0;
+            }
+
+            nav li a {
+                display: block;
+                padding: 10px 0;
+                color: #333;
+                border-bottom: 1px solid #ddd;
+            }
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -13,6 +63,11 @@
                 <img src="Images/logo.jpg" alt="Explore Responsibly Logo">
             </a>
             <nav>
+                <div class="hamburger" onclick="toggleMenu()">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
                 <ul>
                     <li><a href="#intro">Home</a></li>
                     <li><a href="#about">About Us</a></li>
@@ -23,6 +78,12 @@
             </nav>
         </div>
     </header>
+    <script>
+        function toggleMenu() {
+            const menu = document.querySelector('nav ul');
+            menu.classList.toggle('show');
+        }
+    </script>
 
     <section id="intro" class="hero">
         <div class="container">
