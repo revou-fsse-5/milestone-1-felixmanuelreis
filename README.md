@@ -1,51 +1,108 @@
-#!/bin/bash
-
 # Explore Responsibly
-echo "# Explore Responsibly"
-echo "====================="
-echo ""
 
-# Sustainable Tourism and Community Development
-echo "Welcome to Explore Responsibly, a website dedicated to promoting sustainable tourism and community development. Our mission is to inspire responsible travel practices, reduce plastic waste, and support local communities around the world."
+## Description
 
-# Features
-echo ""
-echo "## Features"
-echo "-----------"
-echo "* **Community-Based Tours:** Explore our community-based tours and experiences that promote sustainable tourism and reduce plastic waste."
-echo "* **About Us:** Learn about our mission, team, and values."
-echo "* **Our Impact:** Discover how we're making a difference in local communities and ecosystems."
-echo "* **Get Involved:** Find out how you can join our movement and make a positive impact."
+Explore Responsibly is a website dedicated to promoting community-based tourism and reducing plastic waste in communities around the world. It showcases various tours and experiences, our impact, and ways to get involved.
 
-# Deployment
-echo ""
-echo "## Deployment"
-echo "------------"
-echo "This website is deployed using a combination of modern web development tools and cloud platforms. Here's an overview of our deployment process:"
+## Features
 
+- Responsive design with a hamburger menu for mobile devices
+- Animations for images on hover
+- Sections for Home, About Us, Tours & Experiences, Our Impact, and Get Involved
 
-# Tools and Technologies
-echo ""
-echo "## Tools and Technologies"
-echo "-------------------------"
-echo "* **Frontend:** HTML, CSS, JavaScript, React"
+## Technologies Used
 
+- HTML
+- CSS
+- JavaScript
+- GitHub for version control
+- Netlify for deployment
 
-# Contributing
-echo ""
-echo "## Contributing"
-echo "------------"
-echo "We welcome contributions to our website and mission. If you're interested in getting involved, please contact us at [info@mountainmor.online](mailto:info@mountainmor.online)."
+## Preparation Process
 
-# License
-echo ""
-echo "## License"
-echo "-------"
-echo "This website is licensed under the MIT License. See [LICENSE](LICENSE) for details."
+1. **HTML Structure**:
+    - Created the main structure of the website in `index.html`.
+    - Included sections for Home, About Us, Tours & Experiences, Our Impact, and Get Involved.
 
-# Contact
-echo ""
-echo "## Contact"
-echo "-------"
-echo "Email: [info@mountainmor.online](mailto:info@mountainmor.online)"
-echo "Website: [https://mountainmor.online](https://mountainmor.online)"
+2. **CSS Styling**:
+    - Designed the layout and styles in `style.css`.
+    - Added media queries for responsiveness.
+    - Implemented animations for images.
+
+3. **JavaScript Functionality**:
+    - Added a script to toggle the hamburger menu on mobile devices.
+
+## Deployment Process
+
+### GitHub
+
+1. **Create a GitHub Repository**:
+    - Create a new repository on GitHub.
+    - Clone the repository to your local machine.
+
+    ```bash
+    git clone https://github.com/your-username/explore-responsibly.git
+    ```
+
+2. **Add and Commit Changes**:
+    - Add your project files to the repository.
+    - Commit the changes.
+
+    ```bash
+    git add .
+    git commit -m "Initial commit"
+    ```
+
+3. **Push to GitHub**:
+    - Push the changes to the GitHub repository.
+
+    ```bash
+    git push origin main
+    ```
+
+### Netlify
+
+1. **Deploy the Website on Netlify**:
+    - Log in to Netlify and select "New site from Git".
+    - Connect your GitHub repository.
+    - Configure the build settings and deploy the site.
+
+2. **Link Custom Domain**:
+    - After deployment, go to the "Domain settings" in Netlify.
+    - Add my custom domain `mountainmor.online`.
+
+## Linking Existing Web Domain
+
+To link the existing domain `mountainmor.online` to the new website on Netlify, I followed these steps:
+
+1. **Unlink Previous Website**:
+    - Go to your my registrar, Niagahoster, and log in to my account.
+    - Navigate to the domain management section and unlink the previous website from the domain.
+
+    ![Unlink Previous Website](images/hitu.jpg)
+
+2. **Link New Website**:
+    - In Netlify, go to "Domain Management".
+    - Click on "Add custom domain" and enter `mountainmor.online`.
+    - Follow the prompts to configure the DNS settings as provided by Netlify.
+
+    ![Link New Website](images/ualu.jpg)
+
+3. **Update DNS Settings**:
+    - Go back to your domain registrar and update the DNS settings to point to Netlify's nameservers.
+
+    ![Update DNS Settings](images/sia.jpg)
+
+## Conclusion
+
+The website is now live and linked to the domain `mountainmor.online`. Any changes pushed to the GitHub repository will automatically trigger a new build and deployment on Netlify.
+
+## Screenshots
+
+![Unlink Previous Website](images/hitu.jpg)
+![Link New Website](images/ualu.jpg)
+![Update DNS Settings](images/sia.jpg)
+
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
