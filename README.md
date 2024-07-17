@@ -41,7 +41,7 @@ Explore Responsibly is a website dedicated to promoting community-based tourism 
     - Clone the repository to your local machine.
 
     ```bash
-    git clone https://github.com/your-username/explore-responsibly.git
+    git clone https://github.com/revou-fsse-5/milestone-1-felixmanuelreis.git
     ```
 
 2. **Add and Commit Changes**:
