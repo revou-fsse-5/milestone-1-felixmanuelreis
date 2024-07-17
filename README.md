@@ -79,19 +79,19 @@ To link the existing domain `mountainmor.online` to the new website on Netlify, 
     - Go to your my registrar, Niagahoster, and log in to my account.
     - Navigate to the domain management section and unlink the previous website from the domain.
 
-    ![Unlink Previous Website](images/hitu.jpg)
+    ![Unlink Previous Website](Images/hitu.jpg)
 
 2. **Link New Website**:
     - In Netlify, go to "Domain Management".
     - Click on "Add custom domain" and enter `mountainmor.online`.
     - Follow the prompts to configure the DNS settings as provided by Netlify.
 
-    ![Link New Website](images/ualu.jpg)
+    ![Link New Website](Images/ualu.jpg)
 
 3. **Update DNS Settings**:
     - Go back to your domain registrar and update the DNS settings to point to Netlify's nameservers.
 
-    ![Update DNS Settings](images/sia.jpg)
+    ![Update DNS Settings](Images/sia.jpg)
 
 ## Conclusion
 
@@ -99,9 +99,9 @@ The website is now live and linked to the domain `mountainmor.online`. Any chang
 
 ## Screenshots
 
-![Unlink Previous Website](images/hitu.jpg)
-![Link New Website](images/ualu.jpg)
-![Update DNS Settings](images/sia.jpg)
+![Unlink Previous Website](Images/hitu.jpg)
+![Link New Website](Images/ualu.jpg)
+![Update DNS Settings](Images/sia.jpg)
 
 ## License
 
