@@ -59,10 +59,12 @@ header {
 .logo {
     float: left;
     margin-right: 20px;
+   
 }
 
 .logo img {
-    height: 40px;
+    height: 50px;
+    width: 100px;
 }
 
 nav ul {
@@ -121,6 +123,7 @@ nav li {
 .about-image img {
     max-width: 100%;
     height: auto;
+    border-radius: 10px;
 }
 
 .about-image figcaption {
@@ -185,4 +188,28 @@ footer {
     .get-involved-grid {
         grid-template-columns: 1fr;
     }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.about-image img,
+.tour-grid img,
+.impact-grid img,
+.get-involved-grid img {
+    transition: transform 0.3s ease-in-out;
+    animation: fadeIn 1s;
+}
+
+.about-image img:hover,
+.tour-grid img:hover,
+.impact-grid img:hover,
+.get-involved-grid img:hover {
+    transform: scale(1.05);
 }
